@@ -1,6 +1,10 @@
 array-foreach
 ================================
 
+[![Build Status][travis-image]][travis-url]
+[![License][license-image]][license-url]
+
+
 Array#forEach ponyfill for older browsers
 
 > Ponyfill: A polyfill that doesn't overwrite the native method
@@ -76,3 +80,10 @@ AUTHOR
 LICENSE
 ---------------------------------------
 Licensed under the [MIT](http://twada.mit-license.org/) license.
+
+
+[travis-url]: http://travis-ci.org/twada/array-foreach
+[travis-image]: https://secure.travis-ci.org/twada/array-foreach.svg?branch=master
+
+[license-url]: http://twada.mit-license.org/
+[license-image]: http://img.shields.io/badge/license-MIT-brightgreen.svg
