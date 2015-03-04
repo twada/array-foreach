@@ -1,7 +1,7 @@
 {
   "name": "array-foreach",
   "description": "Array#forEach ponyfill for older browsers",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": {
     "name": "Takuto Wada",
     "email": "takuto.wada@gmail.com",
