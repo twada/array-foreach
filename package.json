@@ -45,5 +45,22 @@
     "build": "browserify index.js --standalone forEach | dereserve | derequire > ./build/array-foreach.js",
     "lint": "jshint index.js",
     "test": "npm run lint && mocha"
+  },
+  "testling": {
+    "files": "test/*.js",
+    "browsers": [
+      "ie/6..latest",
+      "chrome/22..latest",
+      "chrome/canary",
+      "firefox/16..latest",
+      "firefox/nightly",
+      "safari/5.1..latest",
+      "opera/12..latest",
+      "opera/next",
+      "iphone/6.0..latest",
+      "ipad/6.0..latest",
+      "android-browser/4.2..latest"
+    ],
+    "harness": "mocha"
   }
 }
