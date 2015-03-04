@@ -2,6 +2,9 @@ array-foreach
 ================================
 
 [![Build Status][travis-image]][travis-url]
+[![NPM package][npm-image]][npm-url]
+[![Bower package][bower-image]][bower-url]
+[![Dependency Status][depstat-image]][depstat-url]
 [![License][license-image]][license-url]
 
 
@@ -84,6 +87,15 @@ Licensed under the [MIT](http://twada.mit-license.org/) license.
 
 [travis-url]: http://travis-ci.org/twada/array-foreach
 [travis-image]: https://secure.travis-ci.org/twada/array-foreach.svg?branch=master
+
+[npm-url]: https://npmjs.org/package/array-foreach
+[npm-image]: https://badge.fury.io/js/array-foreach.svg
+
+[bower-url]: http://badge.fury.io/bo/array-foreach
+[bower-image]: https://badge.fury.io/bo/array-foreach.svg
+
+[depstat-url]: https://gemnasium.com/twada/array-foreach
+[depstat-image]: https://gemnasium.com/twada/array-foreach.svg
 
 [license-url]: http://twada.mit-license.org/
 [license-image]: http://img.shields.io/badge/license-MIT-brightgreen.svg
