@@ -1,0 +1,49 @@
+{
+  "name": "array-foreach",
+  "description": "Array#forEach ponyfill for older browsers",
+  "version": "1.0.0",
+  "author": {
+    "name": "Takuto Wada",
+    "email": "takuto.wada@gmail.com",
+    "url": "https://github.com/twada"
+  },
+  "bugs": "https://github.com/twada/array-foreach/issues",
+  "devDependencies": {
+    "jshint": "^2.6.3",
+    "mocha": "^2.1.0"
+  },
+  "files": [
+    "README.md",
+    "index.js",
+    "package.json",
+    "test"
+  ],
+  "homepage": "https://github.com/twada/array-foreach",
+  "keywords": [
+    "array",
+    "browser",
+    "each",
+    "es5",
+    "forEach",
+    "ie6",
+    "ie7",
+    "ie8",
+    "polyfill",
+    "ponyfill",
+    "shim"
+  ],
+  "license": {
+    "type": "MIT",
+    "url": "http://twada.mit-license.org/"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/twada/array-foreach.git"
+  },
+  "scripts": {
+    "build": "browserify index.js --standalone forEach | dereserve | derequire > ./build/array-foreach.js",
+    "lint": "jshint index.js",
+    "test": "npm run lint && mocha"
+  }
+}
