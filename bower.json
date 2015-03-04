@@ -1,0 +1,37 @@
+{
+  "name": "array-foreach",
+  "description": "Array#forEach ponyfill for older browsers",
+  "main": "build/array-foreach.js",
+  "license": "http://twada.mit-license.org/",
+  "ignore": [
+    "**/.*",
+    "index.js",
+    "package.json",
+    "test"
+  ],
+  "keywords": [
+    "array",
+    "browser",
+    "each",
+    "es5",
+    "forEach",
+    "ie6",
+    "ie7",
+    "ie8",
+    "polyfill",
+    "ponyfill",
+    "shim"
+  ],
+  "authors": [
+    {
+      "name": "Takuto Wada",
+      "email": "takuto.wada@gmail.com",
+      "homepage": "https://github.com/twada"
+    }
+  ],
+  "homepage": "https://github.com/twada/array-foreach",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/twada/array-foreach.git"
+  }
+}
