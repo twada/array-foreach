@@ -22,6 +22,7 @@ It's just like
 
 - [array-map](https://www.npmjs.org/package/array-map)
 - [array-filter](https://www.npmjs.org/package/array-filter)
+- [array-some](https://www.npmjs.org/package/array-some)
 - [array-reduce](https://www.npmjs.org/package/array-reduce)
 - [indexof](https://www.npmjs.org/package/indexof)
 - [object-assign](https://www.npmjs.com/package/object-assign)
@@ -33,8 +34,8 @@ EXAMPLE
 ```javascript
 var forEach = require('array-foreach');
 var result = '';
-forEach(['foo', 'bar', 'baz'], function (str, idx, ary) {
-    result += str;
+forEach(['foo', 'bar', 'baz'], function (element, index, array) {
+    result += element;
 });
 console.log(result); // 'foobarbaz'
 ```
@@ -69,8 +70,8 @@ Use
 
 ```javascript
 var result = '';
-forEach(['foo', 'bar', 'baz'], function (str, idx, ary) {
-    result += str;
+forEach(['foo', 'bar', 'baz'], function (element, index, array) {
+    result += element;
 });
 ```
 
