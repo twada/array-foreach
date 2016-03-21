@@ -14,12 +14,9 @@
     "mocha": "^2.1.0"
   },
   "files": [
-    "README.md",
     "MIT-LICENSE",
     "index.js",
-    "build/array-foreach.js",
-    "package.json",
-    "test"
+    "build/array-foreach.js"
   ],
   "homepage": "https://github.com/twada/array-foreach",
   "keywords": [
