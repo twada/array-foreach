@@ -39,9 +39,11 @@
     "url": "git://github.com/twada/array-foreach.git"
   },
   "scripts": {
-    "build": "browserify index.js --standalone forEach | dereserve | derequire > ./build/array-foreach.js",
+    "build": "mkdir -p build && browserify index.js --standalone forEach | dereserve | derequire > ./build/array-foreach.js",
     "lint": "jshint index.js",
     "cover": "mocha --require ./coverage --reporter html-cov > coverage.html",
-    "test": "npm run lint && mocha"
+    "test": "npm run lint && mocha",
+    "preversion": "npm test",
+    "version": "npm run build && git add -A build"
   }
 }
