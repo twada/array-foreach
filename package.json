@@ -11,6 +11,7 @@
   "devDependencies": {
     "blanket": "^1.1.6",
     "jshint": "^2.6.3",
+    "licensify": "^3.1.0",
     "mocha": "^2.1.0"
   },
   "files": [
@@ -39,7 +40,7 @@
     "url": "git://github.com/twada/array-foreach.git"
   },
   "scripts": {
-    "build": "mkdir -p build && browserify index.js --standalone forEach | dereserve | derequire > ./build/array-foreach.js",
+    "build": "mkdir -p build && browserify index.js --plugin licensify --standalone forEach | dereserve | derequire > ./build/array-foreach.js",
     "lint": "jshint index.js",
     "cover": "mocha --require ./coverage --reporter html-cov > coverage.html",
     "test": "npm run lint && mocha",
