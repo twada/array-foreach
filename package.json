@@ -9,10 +9,10 @@
   },
   "bugs": "https://github.com/twada/array-foreach/issues",
   "devDependencies": {
-    "blanket": "^1.1.6",
-    "jshint": "^2.6.3",
+    "blanket": "^1.2.3",
+    "jshint": "^2.8.0",
     "licensify": "^3.1.0",
-    "mocha": "^2.1.0"
+    "mocha": "^2.4.5"
   },
   "files": [
     "MIT-LICENSE",
