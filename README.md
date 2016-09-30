@@ -8,9 +8,7 @@ array-foreach
 [![License][license-image]][license-url]
 
 
-Array#forEach ponyfill for older browsers
-
-> Ponyfill: A polyfill that doesn't overwrite the native method
+Array#forEach [ponyfill](https://ponyfill.com) for older browsers
 
 
 DESCRIPTION
